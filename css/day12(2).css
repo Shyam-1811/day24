@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px;
+}
+div{
+    border: 2px solid black;
+    background-color: rgb(164, 128, 198);
+}
+.two{
+    position:relative;
+    top: 100px;
+    left: 100px;
+}
+.four{
+    position: fixed;
+    /* fixed image is intact in its space */
+}
+.cont{
+ height: 8000px;
+}
+.three{
+    position: sticky;
+    top: 300px;
+}
+/* sticky and fixed are different as fixed image are intact throughout the windows
+but stick show stick behaviour inside the parent tag */
