@@ -1,0 +1,14 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border:2px solid green;
+    border-radius: 25%;
+    text-align: center; 
+    padding: 20px;
+}
+@media (min-width:500px) and (max-width:900px){
+    .box{
+        background-color: brown;
+    }
+}
