@@ -1,0 +1,28 @@
+.container{
+    background-color: beige;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(126, 225, 126);
+    height: 300px;
+    width: 300px;
+    border: 2px solid brown;
+    margin: 5px;
+    padding: 5px;
+    /* box-shadow: 10px 10px black; */
+    box-shadow: 10px 10px 5px black;
+    /* blur shadow property */
+    /* box-shadow: inset 5px 5px 3px orangered; */
+    /* inner shadow */
+}
+img{
+    height: 100px;
+    width:  100px;
+}
+h2{
+    text-shadow: 2px 2px 2px royalblue;
+}
