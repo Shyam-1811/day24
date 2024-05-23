@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(177, 124, 226);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.box:hover{
+    width: 1000px;
+    background-color: aquamarine;
+}
