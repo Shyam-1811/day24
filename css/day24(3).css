@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+   background-color: aqua;
+   padding: 5rem;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2 rem;
+}
+.item{
+    padding: 2rem;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    gap: 5px;
+    color: bisque;
+}
+#rotatex:hover{
+transform: rotateX(60deg);
+}
+#rotatey:hover{
+    transform: rotatey(60deg);
+    }
+    #rotatez:hover{
+        transform: rotatez(60deg);
+        }
+        #translatex:hover{
+            transform: translateX(50px);
+        }
+        #translatey:hover{
+            transform: translatey(50px);
+        }
+        #translatez:hover{
+            transform: perspective(300px) translatez(100px);
+        }
+        #scalex:hover{
+            transform: scaleX(2);
+        }
+        #scaley:hover{
+            transform: scaley(2);
+        }
+        #scalez:hover{
+            transform:perspective(300px) scalez(4) rotateY(30deg);
+        }
